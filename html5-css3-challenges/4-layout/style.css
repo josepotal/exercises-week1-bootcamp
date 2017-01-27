@@ -1,0 +1,65 @@
+/* https://learn-the-web.algonquindesign.ca/topics/css-layout-cheat-sheet/*/
+
+
+h1 {
+  background: blue;
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+header {
+  padding-top: 0px;
+  padding-bottom: 0px
+}
+
+nav {
+  width: 25%;
+  float:left;
+  background: #5fe8e8;
+}
+
+nav section {
+  background: #5fe8e8;
+  margin-top:0px;
+}
+
+nav li {
+  background: #e5e3a2;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  color: red;
+  font-weight: bold;
+  list-style-type: none
+}
+
+main {
+  margin: 10px;
+  float: left;
+  width: 70%;
+}
+
+#image1 {
+  float: left;
+  margin: 0px 15px 0px 0px;
+}
+
+.image2 {
+  float: right;
+ 
+}
+
+p {
+  border-right: 5px solid green;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer {
+  clear:both;
+  color: white;
+  background: blue;
+  border-bottom: 10px solid green;
+
+}
